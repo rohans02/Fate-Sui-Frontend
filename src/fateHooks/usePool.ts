@@ -239,7 +239,7 @@ export const usePool = (
 
       return { bull_avg_price: 0, bear_avg_price: 0 };
     } catch (error) {
-      logger.error("Error fetching user balances:", error);
+      logger.error("Error fetching user average prices:", error);
 
       if (error instanceof Error) {
         logger.error("Error message:", error.message);
