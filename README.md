@@ -4,13 +4,6 @@
 <div align="center" style="position: relative; width:175px; margin:auto;">
 
   <img 
-    alt="Stability Nexus" 
-    src="public/logo-dark.png" 
-    width="175"
-    style="position:absolute; top:0; left:0;"
-  />
-
-  <img 
     alt="Fate Protocol" 
     src="public/Animated/logo-animated.gif" 
     width="175"
