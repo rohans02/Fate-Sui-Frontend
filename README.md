@@ -8,6 +8,11 @@
     src="public/Animated/logo-animated.gif" 
     width="175"
   />
+  <img 
+    alt="Fate Protocol" 
+    src="public/logo-white.png" 
+    width="145"
+  />
 </div>
 
 </div>
