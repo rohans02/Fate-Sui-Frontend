@@ -10,7 +10,7 @@
   />
   <img 
     alt="Fate Protocol" 
-    src="public/logo-white.png" 
+    src="public/logo.svg" 
     width="145"
   />
 </div>

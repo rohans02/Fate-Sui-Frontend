@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import logoWhite from "../../../public/logo-white.png";
+import logo from "../../../public/logo.svg";
 import { useTheme } from "next-themes";
 import { ModeToggle } from "../darkModeToggle";
 import { ConnectButton } from "@suiet/wallet-kit";
@@ -57,13 +57,10 @@ const Navbar = () => {
             <Link href="/">
               <div className="text-center">
                 <Image
-                  src={logoWhite}
+                  src={logo}
                   alt="Fate Protocol"
                   width={40}
-                  height={40}
-                  className={`sm:w-[50px] sm:h-[50px] p-2 transition-all ${
-                    resolvedTheme === "light" ? "invert" : ""
-                  }`}
+                  height={42}
                   priority
                 />
               </div>
